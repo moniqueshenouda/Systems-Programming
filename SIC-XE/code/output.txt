@@ -1,0 +1,29 @@
+36LineNo             Address               Label             Op-code                       Operand                       Comment                    ObjectCode             
+    0                                                                                                     .23456789012345678             
+    1                 900                 pro               start                           900                                          
+    2                 900                                     lds                          beta                                                        6f2011
+    3                 903                                     lda                         gamma                                                        032011
+    4                 906                                    addr                           t,s                                                          9054
+    5                 908                                    subr                           s,a                                                          9440
+    6                 90a                                    +add                         delta                                                      1b100911
+    7                 90e               alpha                resw                             1                                          
+    8                 911               delta                resw                             1                                          
+    9                 914                beta                word                            25                                                        000019
+   10                 917               gamma                word                             4                                                        000004
+   11                 91a                                     end                           pro                                          
+                     *********************pass1 errors********************
+
+
+
+
+
+
+
+                     *********************Symbol Table********************
+
+              Symbol             |                      Address
+     ****************************|*******************************
+               alpha             |                          90e
+                beta             |                          914
+               delta             |                          911
+               gamma             |                          917

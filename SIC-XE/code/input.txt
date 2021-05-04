@@ -1,0 +1,12 @@
+.23456789012345678
+pro      START   900
+         LDS     BETA
+         LDA     GAMMA
+         ADDR    T,S
+         SUBR    S,A
+        +ADD     DELTA
+ALPHA    RESW    1
+DELTA    RESW    1
+BETA     WORD    25
+GAMMA    WORD    4
+         END     pro

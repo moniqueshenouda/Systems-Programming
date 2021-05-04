@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1558135983 source:c:\users\user\desktop\p2\main.cpp
+	<fstream>
+	<string>
+	<iostream>
+	<stdio.h>
+	<vector>
+	<cstring>
+	<algorithm>
+	<set>
+	<map>
+	<queue>
+	<stack>
+	"Utilities.h"
+	<math.h>
+
+1558135983 c:\users\user\desktop\p2\include\utilities.h
+	<fstream>
+	<string>
+	<iostream>
+	<stdio.h>
+	<vector>
+	<cstring>
+	<cctype>
+	<algorithm>
+	<set>
+	<map>
+	<queue>
+	<stack>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<math.h>
+	"Entry.h"
+
+1558135983 c:\users\user\desktop\p2\include\entry.h
+	<string>
+	<cstring>
+
+1558135983 source:c:\users\user\desktop\p2\src\entry.cpp
+	"Entry.h"
+
+1558136654 source:c:\users\user\desktop\p2\src\utilities.cpp
+	"Utilities.h"
+	<string>
+	<iostream>
+	<algorithm>
+	<bits/stdc++.h>
+
